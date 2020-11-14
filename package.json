@@ -1,8 +1,24 @@
 {
   "name": "johnyworldui",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.1",
+  "main": "lib/index.js",
+  "types": "lib",
   "repository": "https://github.com/Johnyworld/johnyworldui.git",
   "author": "johnyworld <johnyworld@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.56",
+    "react": "^17.0.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.4",
+    "styled-components": "^5.2.1"
+  }
 }
