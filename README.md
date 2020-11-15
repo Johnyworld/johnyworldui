@@ -14,7 +14,7 @@ This is UI library for johnyworld 2021 web portfolio site!
 - @types/react
 - @types/styled-components
 
-### Publish for development
+### Publish for development to test
 
 > 패키지를 테스트하기 위해 약간의 귀찮은 과정이 필요합니다.
 
